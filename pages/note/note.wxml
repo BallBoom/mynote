@@ -1,0 +1,8 @@
+<view class="warp">
+  <view class="content" wx:for="{{noteObj}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+    <view class="note" bind:tap="noteLongTap" data-id="{{item.id}}" data-index="{{index}}">
+      <text>{{item.text}}</text>
+      <rich-text>{{item.comment}}</rich-text>
+    </view>
+  </view>
+</view>

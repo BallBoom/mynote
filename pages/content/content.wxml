@@ -1,0 +1,13 @@
+<view id="noteTop">
+    <view id="note-content">
+        <textarea id="{{id}}" value="{{comment}}"></textarea>
+    </view>
+    <view class="btnS">
+        <button class="btn" size="default" type="primary" data-id="{{btnId}}" bindtap="onUpdateTap">
+            更新
+        </button>
+        <button class="btn" size="default" type="" data-id="{{btnId}}" bindtap="onDeleteTap">
+            删除
+        </button>
+    </view>
+</view>

@@ -1,0 +1,20 @@
+.warp{
+  width: 100%;
+}
+
+.content{
+  width: 90%;
+  margin: auto;
+  background-color: goldenrod;
+}
+
+.note{
+  margin: auto;
+  margin-top: 10px;
+  height: 80px;
+  padding: 5px 5px;
+  font-size: 16px;
+  color: aliceblue;
+  border: 5px solid gold;
+}
+

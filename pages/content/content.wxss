@@ -1,0 +1,22 @@
+#noteTop{
+    margin: auto;
+    width: 80%;
+    /* height: 300rpx; */
+    /* background-color: yellow; */
+  }
+
+  .note-content{
+    width: 100%;
+    height: 300rpx;
+    /* border: 1px solid black; */
+  }
+
+  .btnS{
+    margin-top: 50rpx;
+  }
+
+  .textarea{
+    width: 80%;
+    height: 300rpx;
+    border-color: black;
+  }
